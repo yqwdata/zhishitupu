@@ -9,4 +9,6 @@ import org.apache.ibatis.annotations.Mapper;
 public interface TodoMapper extends BaseMapper<Todo> {
     @Delete("DELETE FROM todo WHERE user_id = #{userId}")
     void deleteByUserId(Long userId);
+
+
 }

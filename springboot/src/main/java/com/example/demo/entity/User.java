@@ -24,4 +24,6 @@ public class User {
     private String address;
 
     private String avatar;  // 新增字段，用于存储用户头像的 URL
+
+
 }
